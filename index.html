@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yeasir Fahad | Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio website of Yeasir Fahad, Network Engineer, NOC Team Leader and Network Security practitioner." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Go to home section">
+        <span class="brand-avatar"><img src="assets/images/profile.png" alt="Yeasir Fahad profile photo" /></span>
+        <span class="brand-name">Yeasir Fahad</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="label">Network Engineer · NOC Team Leader · Network Security</p>
+          <h1>Professional portfolio focused on network operations, automation and security.</h1>
+          <p class="hero-copy">
+            I am Yeasir Fahad, a network professional with hands-on experience in ISP and enterprise NOC operations.
+            My work focuses on reliable connectivity, fast incident response, documentation and practical automation.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal">
+          <div class="avatar"><img src="assets/images/profile.png" alt="Portrait of Yeasir Fahad" /></div>
+          <h2>Yeasir Fahad</h2>
+          <p>Network Engineer & Team Leader</p>
+          <div class="quick-facts">
+            <span>Dhaka, Bangladesh</span>
+            <span>4+ Years Experience</span>
+            <span>Routing · Switching · Security</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div class="section-title reveal">
+          <p class="label">About Me</p>
+          <h2>Engineer with an operations-first mindset.</h2>
+        </div>
+        <div class="section-text reveal">
+          <p>
+            I started from technical support and grew into a NOC team-lead role by taking ownership of incidents,
+            escalations, ticket quality, documentation and operational improvement.
+          </p>
+          <p>
+            My core strength is solving recurring network problems permanently. I work with routing, switching,
+            monitoring, security response and automation using tools such as MikroTik RouterOS scripting, Bash,
+            SNMP monitoring and EVE-NG lab simulation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="label">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+        <div class="cards two-column reveal">
+          <article class="card">
+            <span class="date">Jun 2023 – Present</span>
+            <h3>Southeast University</h3>
+            <p>BSc in Computer Science</p>
+          </article>
+          <article class="card">
+            <span class="date">Nov 2017 – Jan 2022</span>
+            <h3>Feni Computer Institute</h3>
+            <p>Diploma in Telecommunication Technology · CGPA 3.23</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="label">Skills</p>
+          <h2>Technical Strengths</h2>
+        </div>
+        <div class="cards skills-grid reveal">
+          <article class="card"><h3>Network Operations</h3><p>NOC leadership, incident command, RCA/RFO, SLA management and duty roster planning.</p></article>
+          <article class="card"><h3>Routing & Switching</h3><p>Cisco, Huawei, BDCOM, MikroTik, VLAN, PON, EPON, backbone operations and BGP.</p></article>
+          <article class="card"><h3>Automation</h3><p>RouterOS scripting, Bash, Nmap, RADIUS and PPPoE automation for recurring issue recovery.</p></article>
+          <article class="card"><h3>Security</h3><p>Ransomware response, RDP hardening, DPI/MSS mitigation, firewall rules and ACLs.</p></article>
+          <article class="card"><h3>Monitoring</h3><p>EVE-NG, Dude server, SNMP monitoring and Telegram/email alerting.</p></article>
+          <article class="card"><h3>Certifications</h3><p>MTCNA, MTCRE, CCNA course completion, Linux CLI, cybersecurity and ethical hacking.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="label">Projects</p>
+          <h2>Selected Projects</h2>
+        </div>
+        <div class="cards project-grid reveal">
+          <article class="card highlight-card">
+            <span class="tag">Monitoring</span>
+            <h3>DUDE Server for Network Monitoring</h3>
+            <p>Created a MikroTik Dude server to monitor Layer 2 and Layer 3 devices using SNMP and operational alerts.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Operations</span>
+            <h3>Retail Zone Deployment</h3>
+            <p>Led NOC and fiber-team coordination for three new zones from scratch, covering planning, support and live operations.</p>
+          </article>
+          <article class="card">
+            <span class="tag">Lab Design</span>
+            <h3>100G L2 Backbone Model</h3>
+            <p>Modeled a national Layer 2 backbone in EVE-NG to document topology and test changes before production rollout.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container section-grid">
+        <div class="section-title reveal">
+          <p class="label">Experience / Activities</p>
+          <h2>Professional Journey</h2>
+          <p class="muted">Radiant Communications Ltd. · Banani, Dhaka</p>
+        </div>
+        <div class="experience-list reveal">
+          <article>
+            <span class="date">Dec 2025 – Present</span>
+            <h3>Network Engineer & Team Leader (NOC)</h3>
+            <p>Final escalation point for NOC operations, major incidents, SLA compliance, technical change review and team development.</p>
+          </article>
+          <article>
+            <span class="date">Sep 2024 – Jan 2026</span>
+            <h3>Senior NOC Engineer</h3>
+            <p>Led hardening projects across multiple sites and automated recovery of ghost PPPoE sessions.</p>
+          </article>
+          <article>
+            <span class="date">Aug 2023 – Sep 2024</span>
+            <h3>NOC Engineer</h3>
+            <p>Delivered L1/L2 support across VLANs, switching, transmission, monitoring and incident reporting.</p>
+          </article>
+          <article>
+            <span class="date">May 2022 – Jul 2023</span>
+            <h3>Technical Support / L1 Ticketing</h3>
+            <p>Handled connectivity triage, ONU/fiber diagnostics, speed tests, field-team dispatch and ticket follow-up.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid reveal">
+        <div>
+          <p class="label">Contact</p>
+          <h2>Let’s connect for networking, NOC, automation and security work.</h2>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:yeasirfahad58@gmail.com">yeasirfahad58@gmail.com</a>
+          <a href="tel:+8801864037721">+880 1864-037721</a>
+          <a href="https://www.linkedin.com/in/yeasir-fahad-942994268" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Yeasir Fahad. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
